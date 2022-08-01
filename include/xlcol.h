@@ -2,7 +2,8 @@
 #define __XLCOL_H__
 
 /* 定数宣言 (#defineではなくstatic constにしているのは意図的) */
-static const int RESULT_STR_LENGTH = 16; /* 変換後の文字列受け取りバッファの確保容量 */
+#define RESULT_STR_LENGTH (16)
+// static const int RESULT_STR_LENGTH = 16; /* 変換後の文字列受け取りバッファの確保容量 */
 
 /**
  * @brief 関数の終了コード定義
